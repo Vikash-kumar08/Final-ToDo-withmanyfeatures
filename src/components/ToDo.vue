@@ -40,7 +40,7 @@ export default {
       this.gridApi = params.api;
       this.columnApi = params.columnApi;
     },
-    addrow() {
+    addRow() {
       this.gridApi.applyTransaction({ add: [{}] });
     },
     getSelectedRows() {
